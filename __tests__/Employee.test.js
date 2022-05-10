@@ -1,11 +1,10 @@
 // Write a Failing Test for Employee Object Creation
 
-/*  requiring Employee Object. It's not necessary to include 
-    the .js file extension. Node will assume that the file 
-    is a JS file if no extension is specified.*/
+/*  Importing Employee function which is assumed to be created in future 
+    to be tested from the Employee.js file to our test file*/
 const Employee = require("../lib/Employee");
 
-// Testing employee object creation
+// Testing a function that creates an object called Employee
 test("creates an employee object", () => {
   // creating new emplotee
   const employee = new Employee("Abyou", 1111, "abyou@gmail.com");
