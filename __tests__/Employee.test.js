@@ -1,12 +1,11 @@
-// Write a Failing Test for Employee Object Creation
+// Write a failing test for Employee object creation
 
-/*  Importing Employee function which is assumed to be created in future 
-    to be tested from the Employee.js file to our test file*/
+//  Importing Employee object
 const Employee = require("../lib/Employee");
 
 // Testing a function that creates an object called Employee
 test("creates an employee object", () => {
-  // creating new emplotee
+  // creating new employee
   const employee = new Employee("Abyou", 1111, "abyou@gmail.com");
 
   // expected

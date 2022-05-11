@@ -1,7 +1,6 @@
-// Write a Failing Test for Employee Object Creation
+// Write a failing test for Manager object creation
 
-/*  Importing Employee function which is assumed to be created in future 
-    to be tested from the Employee.js file to our test file*/
+//  Importing Manager Object
 const Manager = require("../lib/Manager");
 
 // Testing a function that creates an object called Manager
@@ -17,6 +16,6 @@ test("creats a Manager object", () => {
 test("gets the role of the Manager", () => {
   const manager = new Manager();
 
-  // Ecpected
+  // Expected
   expect(manager.getRole()).toEqual("Manager");
 });
