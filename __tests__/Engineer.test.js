@@ -1,6 +1,6 @@
-// Writing a Failing Test for Engineer Object Creation
+// Writing a failing test for Engineer object creation
 
-// Importing the Employee function from which the Engineer class inherits its behavior and properties
+// Importing the Engineer object
 const Engineer = require("../lib/Engineer");
 
 // This is a test of a method that returns the Engineer object
