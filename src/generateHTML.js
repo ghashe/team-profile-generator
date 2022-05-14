@@ -58,7 +58,7 @@ const createIntern = function (intern) {
   <div class="card h-100">
     <div class="card-header">
       <h3>${intern.name}</h3>
-      <h4>Engineer</h4>
+      <h4>Intern</h4>
       <i class="fas fa-user-graduate fa-2x"></i>
     </div>
 
@@ -192,7 +192,7 @@ const createTeamPage = function (employeePages) {
     </ul>
     <ul class="menu-cont">
       <li><a href="#" rel="Home Page">Home</a></li>
-      <li><a href="#about" rel="About">About</a></li>
+      <li><a href="https://github.com/ghashe/team-profile-generator#readme" rel="About">About</a></li>
       <li><a href="#" rel="#">Terms</a></li>
       <li><a href="#contacts" rel="#">Contact</a></li>
     </ul>
