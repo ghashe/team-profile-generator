@@ -38,6 +38,8 @@
 
 ## Visual
 
+View walk through video here - [Screencastify](https://drive.google.com/file/d/15MWsLb3hn8ZhXSl6RV_6Cd6UZbjsgPTZ/view)<br>
+
 ![alt text](./assets/images/Screenshot.png)
 
 ## Contributing
